@@ -1,15 +1,54 @@
-# Miscellaneous
+# ==========================================
+# Sistema Operacional e Variados (Miscellaneous)
+# ==========================================
 *.class
 *.lock
 *.log
 *.pyc
 *.swp
+.DS_Store
+.atom/
+.build/
 .buildlog/
 .history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
+# ==========================================
+# IDEs (VS Code, IntelliJ, Android Studio)
+# ==========================================
+*.iml
+*.ipr
+*.iws
+.idea/
+.vscode/
+*.vscode
 
+# ==========================================
+# Flutter / Dart / Pub (Geral)
+# ==========================================
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+**/generated_plugin_registrant.dart
+.packages
+.packages.generated
+.pub-preload-cache/
+.pub-cache/
+.pub/
+build/
+/build/
+flutter_*.png
+linked_*.ds
+unlinked.ds
+unlinked_spec.ds
+coverage/
 
-# Flutter repo-specific
+# ==========================================
+# Flutter Repo-Specific / Ferramentas Internas
+# ==========================================
 /bin/cache/
 /bin/internal/bootstrap.bat
 /bin/internal/bootstrap.sh
@@ -28,25 +67,9 @@
 version
 analysis_benchmark.json
 
-# packages file containing multi-root paths
-.packages.generated
-
-# Flutter/Dart/Pub related
-**/doc/api/
-.dart_tool/
-.flutter-plugins
-.flutter-plugins-dependencies
-**/generated_plugin_registrant.dart
-.packages
-.pub-preload-cache/
-.pub/
-build/
-flutter_*.png
-linked_*.ds
-unlinked.ds
-unlinked_spec.ds
-
-# Android related
+# ==========================================
+# Android
+# ==========================================
 **/android/**/gradle-wrapper.jar
 .gradle/
 **/android/captures/
@@ -56,8 +79,13 @@ unlinked_spec.ds
 **/android/**/GeneratedPluginRegistrant.java
 **/android/key.properties
 *.jks
+/android/app/debug
+/android/app/profile
+/android/app/release
 
-# iOS/XCode related
+# ==========================================
+# iOS / Xcode
+# ==========================================
 **/ios/**/*.mode1v3
 **/ios/**/*.mode2v3
 **/ios/**/*.moved-aside
@@ -87,30 +115,36 @@ unlinked_spec.ds
 **/ios/ServiceDefinitions.json
 **/ios/Runner/GeneratedPluginRegistrant.*
 
-# macOS
+# ==========================================
+# macOS / Windows / Linux
+# ==========================================
 **/Flutter/ephemeral/
 **/Pods/
-**/macos/Flutter/GeneratedPluginRegistrant.swift
-**/macos/Flutter/ephemeral
 **/xcuserdata/
 
-# Windows
+# macOS específico
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/macos/Flutter/ephemeral
+
+# Windows específico
 **/windows/flutter/generated_plugin_registrant.cc
 **/windows/flutter/generated_plugin_registrant.h
 **/windows/flutter/generated_plugins.cmake
 
-# Linux
+# Linux específico
 **/linux/flutter/generated_plugin_registrant.cc
 **/linux/flutter/generated_plugin_registrant.h
 **/linux/flutter/generated_plugins.cmake
 
-# Coverage
-coverage/
-
-# Symbols
+# ==========================================
+# Símbolos, Ofuscação e Build
+# ==========================================
 app.*.symbols
+app.*.map.json
 
-# Exceptions to above rules.
+# ==========================================
+# Exceções (Regras que NÃO devem ser ignoradas)
+# ==========================================
 !**/ios/**/default.mode1v3
 !**/ios/**/default.mode2v3
 !**/ios/**/default.pbxuser
