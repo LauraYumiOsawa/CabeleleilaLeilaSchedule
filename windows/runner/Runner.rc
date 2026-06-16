@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
-            VALUE "FileDescription", "projetoquerinop2" "\0"
+            VALUE "FileDescription", "cabeleleilaLeila" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "projetoquerinop2" "\0"
+            VALUE "InternalName", "cabeleleilaLeila" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
-            VALUE "OriginalFilename", "projetoquerinop2.exe" "\0"
-            VALUE "ProductName", "projetoquerinop2" "\0"
+            VALUE "OriginalFilename", "cabeleleilaLeila.exe" "\0"
+            VALUE "ProductName", "cabeleleilaLeila" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

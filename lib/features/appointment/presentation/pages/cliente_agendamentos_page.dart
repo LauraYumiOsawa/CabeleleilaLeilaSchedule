@@ -251,7 +251,7 @@ class _DetalhesModal extends StatelessWidget {
             _PermissaoAcaoWidget(
               agendamento: ag,
               viewModel: viewModel,
-              onCancelado: () => Navigator.pop(context),
+              onCancelado: () {},
             ),
             const SizedBox(height: 12),
             Row(

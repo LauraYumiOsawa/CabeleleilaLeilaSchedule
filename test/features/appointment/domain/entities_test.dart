@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:projetoquerinop2/features/appointment/domain/entities/entities.dart';
-import 'package:projetoquerinop2/features/appointment/domain/entities/enums.dart';
+import 'package:cabeleleilaLeila/features/appointment/domain/entities/entities.dart';
+import 'package:cabeleleilaLeila/features/appointment/domain/entities/enums.dart';
 
 void main() {
   group('Agendamento', () {
