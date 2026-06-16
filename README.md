@@ -58,3 +58,22 @@ flutter build ios --no-codesign
 #### Limpeza de build:
 
 flutter clean
+
+### Rodar testes Flutter:
+
+#### Rodar todos os testes:
+
+flutter test
+
+#### Rodar um arquivo específico:
+
+flutter test test/features/appointment/domain/entities_test.dart # Testa as entidades de domínio
+flutter test test/features/appointment/presentation/app_view_model_test.dart # Testa o AppViewModel com um repositório fake
+
+#### Com saída detalhada:
+
+flutter test --reporter expanded
+
+#### Análise estática (lint):
+
+flutter analyze
