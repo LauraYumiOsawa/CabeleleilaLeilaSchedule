@@ -1,3 +1,38 @@
+# Salão da Leila
+
+Sistema de agendamento para salão de beleza desenvolvido com Flutter. Permite que clientes realizem agendamentos de serviços e que administradores gerenciem a operação do salão.
+
+---
+
+# Tecnologias Utilizadas
+
+| Tecnologia | Versão | Descrição |
+|---|---|---|
+| [Flutter](https://flutter.dev) | SDK | Framework principal para desenvolvimento multiplataforma |
+| [Dart](https://dart.dev) | ^3.8.0 | Linguagem de programação |
+| [sqflite](https://pub.dev/packages/sqflite) | ^2.4.2 | Banco de dados SQLite para persistência local |
+| [sqflite_common_ffi](https://pub.dev/packages/sqflite_common_ffi) | ^2.3.5 | Suporte ao SQLite em desktop (Linux, Windows, macOS) |
+| [cupertino_icons](https://pub.dev/packages/cupertino_icons) | ^1.0.8 | Ícones no estilo iOS |
+| Material Design 3 | — | Sistema de design visual utilizado na interface |
+
+# Pré-requisitos
+
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) instalado e configurado
+- Dart SDK ^3.8.0 (incluído no Flutter)
+- Para desktop: bibliotecas SQLite disponíveis no sistema
+
+# Acesso Padrão 
+
+O sistema cria automaticamente um usuário *administrador* na primeira execução:
+
+| Campo | Valor |
+|---|---|
+| E-mail | `leila@salao.com` |
+| Senha | `leila` |
+
+Novos clientes podem se cadastrar pela tela de login.
+
+
 # Estrutura do Projeto
 
 lib/
@@ -77,3 +112,7 @@ flutter test --reporter expanded
 #### Análise estática (lint):
 
 flutter analyze
+
+# Observação:
+
+- Esse projeto deve rodar em qualquer ambiente que cumpra os pré-requisitos, porém ele foi produzido e testado em ambiente linux (Ubuntu 24), sendo apenas validado em 100% de suas funcionalidades nesse ambiente.
